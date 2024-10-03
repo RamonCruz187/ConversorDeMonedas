@@ -6,7 +6,7 @@ import modelo.ConversorExchangeRate;
 import modelo.Moneda;
 
 public class ConversorJson {
-    public Moneda convertir(String json){
+    public Moneda convertir(String json) {
         Gson gson = new GsonBuilder()
                 .setPrettyPrinting()
                 .create();

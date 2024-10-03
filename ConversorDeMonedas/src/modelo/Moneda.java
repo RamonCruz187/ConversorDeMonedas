@@ -7,11 +7,6 @@ public class Moneda {
     private double conversion_rate;
     private double conversion_result;
 
-    public Moneda() {
-    }
-
-
-
     public Moneda(ConversorExchangeRate conversorExchangeRate) {
         this.monedaOrigen = conversorExchangeRate.base_code();
         this.monedaDestino = conversorExchangeRate.target_code();
@@ -61,7 +56,7 @@ public class Moneda {
 
     @Override
     public String toString() {
-        return "El valor de "+cantidad+" ["+monedaOrigen+"] corresponden al valor final de =>>> "+conversion_result+" ["+monedaDestino+"]";
+        return "El valor de " + cantidad + " [" + monedaOrigen + "] corresponde al valor final de =>>> " + conversion_result + " [" + monedaDestino + "]";
     }
 }
 
