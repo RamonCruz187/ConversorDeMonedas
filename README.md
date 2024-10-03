@@ -12,9 +12,9 @@ Objetivos del proyecto:
 <li>Poder establecer conexión y consumir una API</li>
 <li>Convertir un JSON a un objeto, aprender a utilizar una clase RECORD</li>
 <li>Realizar un panel de control para el usuario donde se visualicen las opciones y los datos requeridos</li>
+<li>Guardar las consultas en un archivo .txt, donde se puede apreciar la fecha, hora y la consultas realizadas.</li>
 <li>Poner en práctica todo lo desarrollado en el curso, conceptos de POO, listas, excepciones, buenas prácticas, etc.</li>
-<li>Subir el proyecto a GitHub</li>
-<li>Confeccionar el README</li>
+<li>Subir el proyecto a GitHub y confeccionar el README</li>
 </p>
 </div>
 
